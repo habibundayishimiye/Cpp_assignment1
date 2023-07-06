@@ -2,14 +2,16 @@
                 2.UWABABYEYI MBABAZI Aline 222009293
                 3.IRADUKUNDA Bonheur 222005615
                 */
-                
-//AGARIC JAUNISSANT:-GILLS->MEADOWS(NO FOREST)->COMVEX CUP ->RING
-//AMANITE TUEMOUCHE:-GILLS->FOREST->COMVEX CUP ->RING 
-//CEPE DE BORDEAU:-PORES(NO GILLS)->FOREST->(NO COMVEX CUP) ->(NO RING)
-//COPRIN CHEVELU:-GILLS->MEADOWS(NO FOREST)->(NO COMVEX CUP) ->RING
-//GIROLLE:-GILLS->FORESTS->(NO COMVEX CUP)->(NO RING)
-//PIED BLEU:-GILLS->FOREST-> COMVEX CUP->(NO RING)
-
+//This a problem analysis which show us each mushroom and it's
+//corresponding properties             
+/*
+->AGARIC JAUNISSANT:-GILLS->MEADOWS(NO FOREST)->COMVEX CUP ->RING
+->AMANITE TUEMOUCHE:-GILLS->FOREST->COMVEX CUP ->RING 
+->CEPE DE BORDEAU:-PORES(NO GILLS)->FOREST->(NO COMVEX CUP) ->(NO RING)
+->COPRIN CHEVELU:-GILLS->MEADOWS(NO FOREST)->(NO COMVEX CUP) ->RING
+->GIROLLE:-GILLS->FORESTS->(NO COMVEX CUP)->(NO RING)
+->PIED BLEU:-GILLS->FOREST-> COMVEX CUP->(NO RING)
+*/
 #include<iostream>
 using namespace std;
 int main(){
@@ -23,7 +25,7 @@ int main(){
 	cin>> ring;
 	
 
-
+//here program is going to check questions asked
 if(gills =='y'&&forest =='y'&&ring =='y'){
 		cout<<"your mushroom is: AMANITE TUEMOUCHE";
 	}
@@ -35,7 +37,7 @@ if(gills =='y'&&forest =='y'&&ring =='y'){
 	}
 		else if(gills =='y'&&forest =='y'&&ring =='n'){
 		cout<<"does your mushroom have comvex cup? : \n";
-	cin>> comvex_cup;
+	cin>> comvex_cup;//here the fouth question can be asked
 	if(comvex_cup =='y') cout<<"your mushrooom is: GIROLLE ";
 	else if(comvex_cup =='n')
 	cout<<" your mushroom is : PIED BLEU";
