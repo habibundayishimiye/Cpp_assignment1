@@ -6,8 +6,10 @@
 using namespace std;
 int main(){
 	int start_time,end_time,used_time,sum;
-	cout<<"please enter start time and end time respectivery"<<endl;
-	cin>>start_time>>end_time;
+	cout<<"please enter start time  respectivery"<<endl;
+	cin>>start_time;
+	cout<<"please enter end time respectivery"<<endl;
+	cin>>end_time;
 	used_time = end_time - start_time;
 	
 	if(0 <=start_time && start_time < 24 && 0 < end_time && end_time <= 24 && start_time < end_time){
