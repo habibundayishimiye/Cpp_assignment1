@@ -4,34 +4,33 @@
                 */
 #include <iostream>
 using namespace std;
-//Enter the main() function
 int main() {
-    int start;  
-    int end;    
+    int starting_time;  
+    int ending_time;    
     int amount = 0;   
     cout<<"Enter the starting time: "; 
-    cin>>start;
+    cin>>starting_time;
     cout<< "Enter the returning time: ";   
-    cin>>end;
+    cin>>ending_time;
 
 //Define condition to terminate the program (if end input is less than starting time)
   
-    if(end < start) {
+    if(ending_time< starting_time) {
         cout<<"Invalid! Try again."<<endl;
         return 0;
     }
 
   //conditions to calculate sum of payment.
     
-    while(start < end) {
-        if((start >= 0 && start < 7) || (start >= 21 && start < 24)) {
+    while(starting_time < ending_time) {
+        if((starting_time >= 0 && starting_time < 7) || (starting_time >= 21 &&starting_time < 24)) {
            amount += 500;
-        } else if((start >= 7 && start < 14) || (start>= 19 && start < 21)) {
+        } else if((starting_time >= 7 && starting_time < 14) || (starting_time>= 19 && starting_time < 21)) {
             amount += 1000;
-        } else if(start >= 14 && start < 19) {
+        } else if(starting_time >= 14 && starting_time < 19) {
             amount += 1500;
         }
-        start +=1;
+        starting_time +=1;
     }
 
   //the sum of payment  the duration of bicycle rent
