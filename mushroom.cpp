@@ -38,14 +38,14 @@ if(gills =='y'&&forest =='y'&&ring =='y'){
 		else if(gills =='y'&&forest =='y'&&ring =='n'){
 		cout<<"does your mushroom have comvex cup? : \n";
 	cin>> comvex_cup;//here the fouth question can be asked
-	if(comvex_cup =='y') cout<<"your mushrooom is: GIROLLE ";
+	if(comvex_cup =='y') cout<<"your mushrooom is:PIED BLEU  ";
 	else if(comvex_cup =='n')
-	cout<<" your mushroom is : PIED BLEU";
+	cout<<" your mushroom is : GIROLLE";
 	}
 	
 	else if (gills!='y'||gills!='n'||forest!='n'||forest!='y'||
 ring!='n'||ring!='y'){
-	cout<<" answer must be only either y or n !!\n";
+	cout<<" Sorry the Mushroom doesn't exist !\n";
 }	
 	
 	return 0;
