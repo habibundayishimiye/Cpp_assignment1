@@ -13,7 +13,7 @@ int main() {
     cout<< "Enter the returning time: ";   
     cin>>ending_time;
 
-//Define condition to terminate the program (if end input is less than starting time)
+//Define condition to terminate the program (if ending_time  is less than starting time)
   
     if(ending_time< starting_time) {
         cout<<"Invalid! Try again."<<endl;
