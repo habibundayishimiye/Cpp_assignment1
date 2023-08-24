@@ -1,13 +1,17 @@
+/*group members 1.NDAYISHIMIYE Habibu 222005474
+                2.UWABABYEYI MBABAZI Aline 222009293
+                3.IRADUKUNDA Bonheur 222005615
+                */
 #include <iostream>
 using namespace std;
 //Enter the main() function
 int main() {
-    int start;  //declare variable to account for the starting time
-    int end;    //declare variable to account for the returning time
-    int amount = 0;   //declare variable to account for the total cost to be paid
-    cout<<"Enter the starting time: "; // Ask for input from the user for the starting time
+    int start;  
+    int end;    
+    int amount = 0;   
+    cout<<"Enter the starting time: "; 
     cin>>start;
-    cout<< "Enter the returning time: ";    // Ask for input from the user for the returning time
+    cout<< "Enter the returning time: ";   
     cin>>end;
 
 //Define condition to terminate the program (if end input is less than starting time)
@@ -35,5 +39,5 @@ int main() {
     cout<<"you should pay: "<<amount<<" Rwf."<<endl;
         
             
-        return 0; //Existing the program.....
+        return 0; 
 }
